@@ -15,14 +15,14 @@ pause(){
  
 one(){
    curl -s "wttr.in"
-   echo "(The call was made by an API and so the author credits can not be removed - Yash Kale, 2018UIT2619)"
+   echo "(The call was made by an API and so the author credits can not be removed - Siddharth Sinha, 2018UCO2619)"
    echo
        pause
 }
 two(){
    read -p "What country do you want stats for? (Leave Empty for all)" param
    curl -s "https://corona-stats.online/$param"
-   echo "(The call was made by an API and so the author credits can not be removed - Yash Kale, 2018UIT2619)"
+   echo "(The call was made by an API and so the author credits can not be removed - Siddharth Sinha, 2018UCO2619)"
    echo
        pause
 }
@@ -33,7 +33,7 @@ three(){
    echo
    curl -s "wttr.in/$city"
    echo
-   echo "(The call was made by an API and so the author credits can not be removed - Yash Kale, 2018UIT2619)"
+   echo "(The call was made by an API and so the author credits can not be removed - Siddharth Sinha, 2018UCO2619)"
        pause
  
 }
